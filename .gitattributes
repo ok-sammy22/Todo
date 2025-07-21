@@ -1,2 +1,9 @@
-* linguist-detectable
+# Tell GitHub to treat .dart as Dart and ignore XML, C++, etc.
 *.dart linguist-language=Dart
+
+# Optional: Ignore other languages from stats
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
